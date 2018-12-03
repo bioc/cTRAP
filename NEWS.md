@@ -2,8 +2,6 @@
 
 * Add tag ImmunoOncology to BiocViews
 
-* Fix comparison against CMap perturbations using gene set enrichment analysis 
-(the resulting score was the additive inverse of the real scores)
 
 # 1.0.2 (11 November, 2018)
 
