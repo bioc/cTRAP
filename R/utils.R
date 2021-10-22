@@ -59,7 +59,7 @@ downloadIfNotFound <- function(link, file, ask=FALSE, toExtract=NULL) {
         } else if (isBinary(processed)) {
             mode <- "wb"
         } else {
-            res <- lapply(res, HTMLfast)
+            mode <- "w"
         }
         download.file(link, file, mode=mode)
     }
