@@ -17,11 +17,14 @@ cmap*.txt
 ENC*.tsv
 tests/testthat/Rplots.pdf
 docs/
+
 # RDS files
 expressionDrugSensitivity*.rds
 molecular_descriptors*.rds
 ENCODEmetadata.RDS
 *.txt
 *.xls
+*.qs
+*.qs2
 *.h5
 .DS_Store
